@@ -1,0 +1,10 @@
+h1{
+    color:burlywood;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+div {
+    background-color: #ccc;
+}

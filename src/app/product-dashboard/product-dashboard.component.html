@@ -1,0 +1,30 @@
+<marquee>
+    <h1>Amazon Great Indian Sale... hurry up... </h1>
+</marquee>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <app-product-widget [products]="salesProducts">
+                <h3 class="header"> Clearance Store</h3>
+                <a href="" class="link">Visit Store..</a>
+                <h5 class="buynow"> * Buy now.. </h5>
+            </app-product-widget>
+        </div>
+
+        <div class="col-md-4">
+            <app-product-widget [products]="topProducts">
+                <h3 class="header"> Top picks of the day... </h3>
+                <a href="" class="link">See More..</a>
+                <h5 class="offer">* This offer ends soon..</h5>
+            </app-product-widget>
+        </div>
+
+        <div class="col-md-4">
+            <app-product-widget [products]="todayDeals">
+                <h3 class="header"> Deals of the day... </h3>
+                <a href="" class="link"> Click Now ..</a>
+                <h5 class="offer"> * Watch soon..</h5>
+            </app-product-widget>
+        </div>
+    </div>
+</div>

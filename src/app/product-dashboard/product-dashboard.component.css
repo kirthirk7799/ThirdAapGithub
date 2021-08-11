@@ -1,0 +1,12 @@
+marquee {
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+h3 {
+    text-align: center;
+    font-family: cursive;
+}
